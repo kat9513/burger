@@ -1,0 +1,27 @@
+body{
+    background-color: #ffeb6d;
+}
+ul{
+    list-style: none;
+}
+button{
+    background-color: green;
+    border: none;
+    border-radius: 40px;
+}
+.burgerImg{
+    width: 300px;
+}
+.container{
+    width: 50%;
+}
+.title{
+    font-family: 'Pacifico', cursive;
+    font-size: 75pt;
+    color: red;
+    padding: 20px;
+}
+
+.burgers, .addBurger{
+    font-family: 'Chewy', cursive;
+}
