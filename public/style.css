@@ -1,19 +1,23 @@
 body{
-    background-color: #ffeb6d;
+    background-color: #b0e9fc;
 }
 ul{
     list-style: none;
 }
 button{
+    color: white;
     background-color: green;
     border: none;
     border-radius: 40px;
+}
+.delete-burger{
+    background-color: red;
 }
 .burgerImg{
     width: 300px;
 }
 .container{
-    width: 50%;
+    width: 75%;
 }
 .title{
     font-family: 'Pacifico', cursive;
@@ -24,4 +28,8 @@ button{
 
 .burgers, .addBurger{
     font-family: 'Chewy', cursive;
+}
+#ca{
+    border: none;
+    border-radius: 40px;  
 }
