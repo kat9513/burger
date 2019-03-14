@@ -1,3 +1,6 @@
+@media screen and (max-width: 100%) {
+
+  }
 body{
     background-color: #b0e9fc;
 }
@@ -21,7 +24,6 @@ button{
 }
 .title{
     font-family: 'Pacifico', cursive;
-    font-size: 75pt;
     color: red;
     padding: 20px;
 }
