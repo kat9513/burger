@@ -5,30 +5,36 @@
 
   <img class="burgerImg" src="/burger.png">
 
-  <div class="burgers">
-    <h2>
-      Burgers that are ready to be eaten!
-    </h2>
-    <ul>
-      {{#each burgers}}
-      {{#unless devoured}}
-      {{> burgers/burger-block devoured=1}}
-      {{/unless}}
-      {{/each}}
-    </ul>
+  <div class="row col-sm-12 burgers">
 
-    <h2>
-      Burgers that have been devoured!
-    </h2>
+    <div class="eaten col-sm-6">
+      <h2>
+        Burgers that are ready to be eaten!
+      </h2>
+      <ul>
+        {{#each burgers}}
+        {{#unless devoured}}
+        {{> burgers/burger-block devoured=1}}
+        {{/unless}}
+        {{/each}}
+      </ul>
+    </div>
 
-    <ul>
-      {{#each burgers}}
-      {{#if devoured}}
-      {{> burgers/burger-block devoured=0}}
-      {{/if}}
-      {{/each}}
-    </ul>
+    <div class="ready col-sm-6">
+      <h2>
+        Burgers that have been devoured!
+      </h2>
+
+      <ul>
+        {{#each burgers}}
+        {{#if devoured}}
+        {{> burgers/burger-block devoured=0}}
+        {{/if}}
+        {{/each}}
+      </ul>
+    </div>
   </div>
+
 
   <div class="addBurger">
     <h2>Add a Burger</h2>
@@ -49,4 +55,3 @@
     </form>
   </div>
 </div>
-
