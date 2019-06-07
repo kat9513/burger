@@ -3,6 +3,7 @@
   }
 body{
     background-color: #b0e9fc;
+    font-family: 'Chewy', cursive;
 }
 ul{
     list-style: none;
@@ -18,6 +19,7 @@ button{
 }
 .burgerImg{
     width: 300px;
+    margin-bottom: 2%;
 }
 .container{
     width: 75%;
@@ -28,8 +30,8 @@ button{
     padding: 20px;
 }
 
-.burgers, .addBurger{
-    font-family: 'Chewy', cursive;
+.burgers{
+    margin-bottom: 10%;
 }
 #ca{
     border: none;
