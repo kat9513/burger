@@ -1,8 +1,8 @@
 # burger
 
-https://tranquil-island-56945.herokuapp.com/burgers
+https://burger806.herokuapp.com/burgers
 
-Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
+Eat-the-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
 
 Whenever a user submits a burger's name, the app will display the burger in the designated section of the page -- waiting to be devoured or already eaten.
 
